@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a HTML tutorial">
+    <!-- description of the website -->
+    <meta name="keywords" content="html, html tutorial, web development">
+    <!-- when users search using these keywords, our website will display -->
+    <meta name="robots" content="INDEX , FOLLOW">
+    <!-- if we dont want our website to come in search engine, we can do NOINDEX, NOFOLLOW
+     . BUt now we are doing INDEX, FOLLOW so that it will come in search engine -->
+
+    <title>My Page</title>
+
+    <!-- Including external css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Including javascript in html -->
+    <script src="javafile.js"></script>
+</head>
+
+<body>
+
+    <!-- shortcut for comment cntrl+/  -->
+    <!-- lorem404 is used to insert 404 dummy text -->
+    <!-- alt+z is used to appers all the text in screen -->
+    <!-- p*4 is used to insert four paragraph -->
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam praesentium mollitia labore beatae rerum
+    dolore, distinctio modi vel at dolor, aspernatur nam. In aspernatur placeat delectus architecto rem, dolorum id
+    necessitatibus atque expedita ipsum adipisci iure tempore commodi nemo quia nesciunt! Numquam atque provident soluta
+    similique, non accusamus ratione <br>iure cum distinctio expedita ad molestias facilis tempore quos! Amet eligendi
+    commodi, accusantium nobis nisi aliquid debitis! Cumque sapiente, necessitatibus voluptatibus in harum sequi iure?
+    Reiciendis sed quod atque esse! Iure, veniam expedita. Animi molestiae ut, quidem voluptate ipsam dignissimos optio,
+    tempore perspiciatis odit suscipit possimus amet exercitationem dolor porro hic magni facilis iste velit. Aspernatur
+
+    <br>
+
+    <hr><!-- this is horizontal rule -->
+    <em>This is emphasized.</em>
+
+    <!-- ctrl+enter is used to jump into the new line -->
+    <!-- alt+click in every line is used to write same line of text -->
+    <a href="https://google.com" target="_blank">Google</a>
+    <!-- target="_blank" is used to open the link in new tab -->
+    <a href="https://facebook.com" target="_blank">facebook</a>
+    <a href="https://twitter.com" target="_blank">twitter</a><br>
+    <img src="https://images.unsplash.com/photo-1666025958150-f22e446d8334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+        alt="my picture">
+
+
+    <ol>
+        <li>fruits</li>
+        <UL>
+            <li>Mango</li>
+            <li>Banana</li>
+        </UL>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nisha</td>
+                <td>Chitwan</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myname" id="name">
+        </div>
+        <div>
+            Role:<input type="text" name="myrole">
+        </div>
+        <div>
+            Email:<input type="email" name="myemail">
+        </div>
+        <div>
+            Date:<input type="date" name="mydate">
+        </div>
+        <div>
+            <!-- type number accept e because we can insert the pow of e in bonus -->
+            Bonus:<input type="number" name="mybonus">
+        </div>
+        <div>
+            Are you eligible?:<input type="checkbox" name="myeligibility" checked>
+        </div>
+        <div>
+            Gender:Male<input type="radio" name="mygender">
+            Female<input type="radio" name="mygender">
+            Other<input type="radio" name="mygender">
+        </div>
+        <!-- select the required code and press alt+downarrow to move the selected selected code down -->
+        <div>
+            About yourself:<textarea name="mytext" cols="20" rows="10"> </textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <br>
+        <div>
+            <label for="car">car</label>
+            <select name="mycar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Shift</option>
+            </select>
+            </label>
+        </div>
+
+    </form>
+    <!-- Inline element  -->
+    <P style="border: 1px solid red;">Lorem ipsum dolor sit.</P>
+    <!-- block element -->
+    <spam style="border: 1px solid blue;">Lorem ipsum dolor sit.</spam>
+
+    <!-- ID is identifier which is used in only one element -->
+    <!-- there can be many classes and one class can be used many times in many element-->
+
+    <!-- . is used for class and # is used for id -->
+    <!-- span.redBG is used to construct a span tag with redBG class -->
+
+    <span class="redBG"></span>
+    <!-- span#redBG is used to construct a span tag with redBG id -->
+    <span id="redBG"></span>
+
+    <!-- creating multiple element using Emmet -->
+    <!-- span.myclass.myclass2.myclass3*4 to print 4 similar elements using Emmet -->
+    <span class="myclass myclass2 myclass3">First</span><span class="myclass myclass2 myclass3">Second</span><span
+        class="myclass myclass2 myclass3">Third</span><span class="myclass myclass2 myclass3">Fourth</span>
+<div class="container">
+    <p> This is a Paragraph.</p>
+
+</div>
+<div class="container">
+    <!-- entities in html -->
+    <p>This is another &nbsp; &nbsp; paragraph with two spaces</p>
+    <p>Paragraph is written like this &lt;p&gt;</p>
+    <p>Pound is written like this &pound;</p>
+    <p>Copyright is written like this &copy;</p>
+    <p>Another character is &rAarr;</p>
+    <p>Another character is &frac14;</p>
+    <p>Empty character is written ike this &#8203;</p>
+</div>
+<!-- semantic element -->
+<h3>Semantic Elements</h3>
+<details>
+    <summary>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, perspiciatis.</summary>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos perspiciatis optio vel officiis necessitatibus, libero deleniti nihil explicabo nobis unde mollitia quos numquam, ipsam temporibus cumque in. Veritatis, hic eveniet?
+</details>
+
+
+</body>
+
+</html>
